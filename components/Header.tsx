@@ -20,7 +20,7 @@ const Header = () => {
       <Link href={"/contact"} className="mr-5 text-white hover:text-accent">CONTACT</Link>
     </nav>
     
-    <button className="inline-flex items-center font-bold bg-accent text-white border-0 py-2 px-4 focus:outline-none duration-500 hover:bg-white hover:text-accent rounded-full text-base mt-4 md:mt-0">
+    <button className="group inline-flex items-center font-bold bg-accent text-white border-0 py-2 px-4 focus:outline-none duration-500 hover:bg-white hover:text-accent rounded-full text-base mt-4 md:mt-0">
     <Link href={"/contact"}>HIRE ME</Link>
     <span className="pl-3"><FaArrowRight /></span>  
     </button>

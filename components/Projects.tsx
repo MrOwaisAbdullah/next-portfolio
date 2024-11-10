@@ -11,7 +11,11 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <section>
+    <section id="project" className="scroll-smooth">
+          <div className="mt-20 text-center">
+    <h3 className="text-base text-accent font-medium sm:text-lg">See My Previous Work</h3>
+    <h2 className="text-5xl text-text font-semibold sm:text-6xl">Projects</h2>
+    </div>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">

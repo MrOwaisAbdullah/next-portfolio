@@ -4,8 +4,8 @@ import { FaArrowRight } from 'react-icons/fa'
 
 const About = () => {
   return (
-    <section className="text-gray-600 body-font">
-  <div className="container px-5 py-24 grid content-center">
+    <section className="text-gray-600 body-font scroll-smooth ">
+  <div id="about" className="container px-5 py-24 grid content-center scroll-smooth duration-300 ">
     <div>
     <h3 className="text-base text-accent font-medium sm:text-lg">
             About Me!
@@ -25,7 +25,7 @@ const About = () => {
           Contact Me
         </button>
         </Link>
-        <Link href={"#"} className="group text-accent-500 inline-flex items-center ml-4">
+        <Link href={"#project"} className="group text-accent-500 inline-flex items-center ml-4">
           Learn More
           <span className='group-hover:rotate-90 ml-5 duration-300 group-hover:text-accent'><FaArrowRight /></span>
         </Link>

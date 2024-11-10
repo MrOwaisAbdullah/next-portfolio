@@ -5,6 +5,7 @@ import { Typewriter } from "nextjs-simple-typewriter";
 import { FaChevronRight } from "react-icons/fa";
 import { RiNextjsLine, RiWordpressLine } from "react-icons/ri";
 import { TbBrandTypescript } from "react-icons/tb";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -42,12 +43,14 @@ const Hero = () => {
             business flourish online!
           </p>
           <div className="flex justify-center group">
+            <Link href="#about" className="scroll-smooth duration-300">
             <button className="inline-flex text-white bg-accent border-0 py-2 focus:outline-none hover:bg-text hover:text-accent rounded-full font-medium text-lg px-8">
               About Me
               <span className="pl-3 pt-2 group-hover:rotate-90 group-hover:pl-6 group-hover:-mt-2 duration-300">
                 <FaChevronRight />
               </span>
             </button>
+            </Link>
           </div>
           <p className="mt-8 mb-2 font-bold md:ml-4">
               BEST SKILL ON:

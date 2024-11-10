@@ -8,7 +8,7 @@ const Skills = () => {
     <section className="text-gray-400 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-    <h3 className="text-base text-accent font-medium sm:text-lg">See My Previous Work</h3>
+    <h3 className="text-base text-accent font-medium sm:text-lg">Areas of Expertise</h3>
       <h1 className="text-5xl text-text font-semibold sm:text-6xl">
         My Skills
       </h1>

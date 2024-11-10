@@ -1,9 +1,15 @@
 import React from 'react'
-
-const About = () => {
+import About from '@/components/About'
+import Skills from '@/components/Skills'
+import Projects from '@/components/Projects'
+const about = () => {
   return (
-    <div>About</div>
+    <>
+    <About />
+    <Projects />
+    <Skills />
+    </>
   )
 }
 
-export default About
+export default about
