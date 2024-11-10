@@ -8,9 +8,18 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: "1rem",
+      },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"]
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        accent: "#3a69ff",
+        background: "#212428",
+        text: "#fff",
       },
     },
   },
