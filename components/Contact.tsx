@@ -39,6 +39,9 @@ const Contact = () => {
           <h2 className="text-text text-2xl mb-1 font-semibold title-font">
             CONNECT WITH ME
           </h2>
+          <form 
+            action="https://formspree.io/f/xnnqvnzl"
+            method="POST" >
           <div className="relative mb-4 ">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               NAME
@@ -47,7 +50,8 @@ const Contact = () => {
               type="text"
               id="name"
               name="name"
-              className="w-full shadow-inner shadow-zinc-900 bg-zinc-800 rounded border border-gray-900 focus:border-accent focus:ring-1 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full shadow-inner shadow-zinc-900 bg-zinc-800 rounded border border-gray-900 focus:border-accent focus:ring-1 text-base outline-none text-gray-400 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              required
             />
           </div>
           <div className="relative mb-4">
@@ -58,7 +62,20 @@ const Contact = () => {
               type="email"
               id="email"
               name="email"
-              className="w-full shadow-inner shadow-zinc-900 bg-zinc-800 rounded border border-gray-900 focus:border-accent focus:ring-1 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full shadow-inner shadow-zinc-900 bg-zinc-800 rounded border border-gray-900 focus:border-accent focus:ring-1 text-base outline-none text-gray-400 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              required
+            />
+          </div>
+          <div className="relative mb-4">
+            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+              SUBJECT
+            </label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              className="w-full shadow-inner shadow-zinc-900 bg-zinc-800 rounded border border-gray-900 focus:border-accent focus:ring-1 text-base outline-none text-gray-400 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              required
             />
           </div>
           <div className="relative mb-4">
@@ -71,13 +88,15 @@ const Contact = () => {
             <textarea
               id="message"
               name="message"
-              className="w-full shadow-inner shadow-zinc-900 bg-zinc-800 rounded border border-gray-900 focus:border-accent focus:ring-1 h-52 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full shadow-inner shadow-zinc-900 bg-zinc-800 rounded border border-gray-900 focus:border-accent focus:ring-1 h-36 text-base outline-none text-gray-400 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               defaultValue={""}
+              required
             />
           </div>
           <button className="text-white bg-accent border-0 py-4 px-6 focus:outline-none hover:bg-text hover:text-accent hover:scale-105 duration-300 ease-out rounded text-md font-semibold">
             SEND MESSAGE
           </button>
+          </form>
           <p className="text-xs text-center text-gray-500 mt-3">
           Send me a message, and I&apos;ll contact you shortly.
           </p>
