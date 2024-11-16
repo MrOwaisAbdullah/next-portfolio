@@ -78,10 +78,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="lg:max-w-lg md:w-2/5 sm:-ml-16 sm:pt-0 relative lg:-mt-8 xl:-mt-14 md:ml-20 md:-mt-52 ">
-          <div className="-mt-48 -mr-40 w-11/12 h-5/6 shadow-xl opacity-30 shadow-slate-500 rounded-xl absolute top-72 right-40 z-0 bg-black md:w-11/12 md:h-3/5 md:-mr-28 md:-mt-20 sm:h-3/4 sm:-mt-40 sm:-mr-40 sm:w-10/12 lg:w-11/12 lg:-mr-40 xl:w-10/12 xl:-mr-30 xl:h-4/6 xl:-mt-24"></div>
+          <div className="-mt-56 -mr-[155px] w-11/12 h-4/5 shadow-xl opacity-30 shadow-slate-500 rounded-xl absolute top-72 right-40 z-0 bg-black md:w-11/12 md:h-3/5 md:-mr-28 md:-mt-20 xs:h-3/4 xs:-mt-48 sm:-mt-40 sm:-mr-40 sm:w-10/12 lg:w-11/12 lg:-mr-40 xl:w-10/12 xl:-mr-30 xl:h-4/6 xl:-mt-24"></div>
           <Image
             src={owais}
-            className="relative object-cover object-center mt-6 z-10 md:mt-32  md:-ml-10 sm:-mt-9 sm:ml-12 lg:ml-2 lg:mt-6 xl:ml-16 xl:mt-8"
+            className="relative object-cover object-center -mt-16 xs:-mt-14 z-10 md:mt-32  md:-ml-10 sm:-mt-9 sm:ml-12 lg:ml-2 lg:mt-6 xl:ml-16 xl:mt-8"
             width={400}
             height={100}
             loading="lazy"

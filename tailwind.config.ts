@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: '360px',
+      },
       container: {
         center: true,
         padding: "1rem",
